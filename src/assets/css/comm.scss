@@ -1,0 +1,31 @@
+.dialogFrom{
+    :deep(.el-form-item){
+        width: 50%;
+        margin-right: 0;
+        &:nth-last-child(1){
+            display: block;
+            width: 100%;
+            .el-form-item__content{
+                display: block;
+                text-align: right;
+                margin-left: 0 !important;
+            }
+        }
+        .el-form-item__label{
+            padding-right: 5px;
+        }
+        .el-form-item__content{
+            width: 100%;
+        }
+        .el-select{
+            display: block;
+            width: 100%;
+        }
+        .el-input-number{
+            width: 100%;
+            .el-input__inner{
+                text-align: left;
+            }
+        }
+    }
+}
